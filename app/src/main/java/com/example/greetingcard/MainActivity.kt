@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             GreetingCardTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Android")
+                    Greeting("Takeru")
                 }
             }
         }
@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color = Color.Yellow) {
         Text(
-            text = "Hi, my name is $name!",
+            text = "Your name is $name!",
             modifier = Modifier.padding(24.dp)
         )
     }
